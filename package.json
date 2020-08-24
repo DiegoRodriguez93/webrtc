@@ -1,0 +1,29 @@
+{
+  "name": "expreejsvideconferenceserverexample",
+  "version": "1.0.0",
+  "description": "ExpressJS example with WebRTC framework, SocketIO, Mysql, VanillaJS, SSL certificate",
+  "main": "src/app.js",
+  "scripts": {
+    "sdev": "nodemon --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ExpressJS",
+    "WebRTC",
+    "SocketIO",
+    "NodeJS",
+    "Mysql",
+    "VanillaJS",
+    "SSL"
+  ],
+  "author": "Diego Rodríguez info@renoca.ml",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
